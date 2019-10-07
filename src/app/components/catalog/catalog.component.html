@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <div class="header" [ngStyle]="{'background-color': backgroundColor}">
+    <h1>Movies Catalog</h1>
+    <div class="btnsWrapper">
+      <button class="btn btn-outline-dark" (click)="openNewMovieModal()">Add Movie</button>
+      <button class="btn btn-outline-dark" (click)="openChangeColorModal()">Change Master Color</button>
+    </div>
+  </div>
+  <div class="movies">
+    <app-movie *ngFor="let movie of movies" [name]="movie.name" [link]="movie.link"></app-movie>
+  </div>
+</div>

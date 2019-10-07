@@ -1,0 +1,21 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4px;
+  box-shadow: 0 0 3px 3px #bbb;
+  margin: 8px;
+  border-radius: 4px;
+  height: 200px;
+  width: 200px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+  text-decoration: none;
+}

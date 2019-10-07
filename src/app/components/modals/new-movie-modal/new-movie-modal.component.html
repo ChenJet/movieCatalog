@@ -1,0 +1,12 @@
+<div class="modal-header">
+  <h4 class="modal-title" id="modal-basic-title">Add new movie</h4>
+</div>
+<div class="modal-body inputWrapper">
+  <input #name placeholder="Enter movie name" required>
+  <input #link placeholder="Enter movie link on IMDB" required>
+  <p class="errorMsg" *ngIf="showError">You must fill both fields!</p>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-danger" (click)="activeModal.dismiss()">Cancel</button>
+  <button type="button" class="btn btn-outline-success" (click)="close({name: name.value.trim(), link: link.value.trim()})">Add</button>
+</div>

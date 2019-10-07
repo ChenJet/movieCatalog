@@ -1,0 +1,17 @@
+.closeBtn{
+  outline: none;
+}
+
+.btnsWrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.colorBtn{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 4px;
+}

@@ -1,0 +1,27 @@
+.wrapper{
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 16px;
+
+  .btnsWrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button{
+      margin: 4px;
+    }
+  }
+}
+
+.movies{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}

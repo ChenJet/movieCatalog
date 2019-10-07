@@ -1,0 +1,18 @@
+input{
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin: 16px;
+}
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.errorMsg{
+  color: red;
+  text-align: center;
+}
